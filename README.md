@@ -1,7 +1,5 @@
 # Geotechnical Laboratory Report Data Extraction Pipeline
 
-This document is formatted as a Markdown (.md) file for direct copy-paste use.
-
 ## Overview
 
 This project is a Python-based automated data extraction pipeline designed to process geotechnical laboratory reports in PDF format and convert them into a standardized tabular dataset.
@@ -208,15 +206,6 @@ After successful execution, the script generates:
 ```text
 geotech_report_summary.csv
 ```
-
-Example:
-
-| Sample Number | Location | Sample Depth (m) | Material   | LL |
-| ------------- | -------- | ---------------- | ---------- | -- |
-| TP-01         | BH01     | 2.5              | Clay       | 45 |
-| TP-02         | BH02     | 4.0              | Sandy Clay | 38 |
-
-The actual output depends on the contents of the input PDF.
 
 ---
 
